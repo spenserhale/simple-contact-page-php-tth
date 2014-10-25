@@ -21,7 +21,7 @@ $location['full'] = $location['city'] . '. ' . $location['state'];
   <body>
     <section class="sidebar text-center">
       <div class="avatar">
-        <img src="img/avatar.jpg" alt="Mike The Frog">
+        <img src="img/avatar.jpg" alt="<?php echo $name['full']; ?>">
       </div>
       <h1><?php echo $name['full']; ?></h1>
       <p><?php echo $location['full']; ?></p>
